@@ -1,0 +1,45 @@
+*{
+  text-align: center;
+  font-size: 40px;
+}
+.header{
+  background-color: black;
+  height: 100px;
+  color: white;
+  }
+  .half{
+    background-color: yellow;
+    height: 100px;
+  }
+  .third{
+    background-color: green;
+    height: 100px;
+}
+    .two-thirds{
+    background-color: red;
+    height: 100px;
+  }
+  .quarter{
+    background-color: blue;
+    height: 100px;
+  }
+  .eighth{
+    background-color: purple;
+    height: 100px;
+  }
+  [class*="mkd-"] {
+    float: left;
+    padding: 0px;
+}
+.mkd-1 {width: 8.33%;}
+.mkd-2 {width: 16.66%;}
+.mkd-3 {width: 25%;}
+.mkd-4 {width: 33.33%;}
+.mkd-5 {width: 41.66%;}
+.mkd-6 {width: 50%;}
+.mkd-7 {width: 58.33%;}
+.mkd-8 {width: 66.66%;}
+.mkd-9 {width: 75%;}
+.mkd-10 {width: 83.33%;}
+.mkd-11 {width: 91.66%;}
+.mkd-12 {width: 100%;}
